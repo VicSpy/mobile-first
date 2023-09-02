@@ -7,7 +7,7 @@ hr {
     padding: 1em;
 }
 
-.lista-rodape{
+.lista-rodape {
     display: none;
 }
 
@@ -24,7 +24,7 @@ hr {
 
     }
 
-    .lista-rodape{
+    .lista-rodape {
         display: block;
     }
 
@@ -39,7 +39,18 @@ hr {
         color: var(--cinza-claro);
     }
 
-    .rodape__titulo{
+    .rodape__titulo {
         font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .lista-rodape {
+        border-left: 1px solid var(--cinza-claro);
+        padding-left: 1em;
+    }
+
+    .rodape {
+        padding: 3em;
     }
 }
